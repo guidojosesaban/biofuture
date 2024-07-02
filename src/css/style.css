@@ -61,6 +61,10 @@ body{
   list-style: none;
 }
 
+.menuBtn{
+  display: none;
+}
+
 .mainMenu li a{
   color: #ffffff;
   font-size: 1.2rem;
@@ -77,7 +81,7 @@ body{
   min-height: 6rem;
   background: #252525;
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
 }
@@ -87,12 +91,16 @@ body{
   text-align: center;
 }
 
+.footerBotonera{
+  margin-left: 1rem;
+}
+
 .alInicioBtn{
   text-decoration: none;
   color: #3a86ff;
   font-size: 1.2rem;
   background: #ffffff;
-  padding: 1rem;
+  padding: .5rem 1rem;
   border-radius: 8px;
 }
 
@@ -101,7 +109,7 @@ body{
   text-decoration: none;
   border-radius: 8px;
   margin: 1rem;
-  padding: 1rem 2rem;
+  padding: .5rem 1rem;
   border: 2px solid #3a86ff;
   font-size: 1.2rem;
 }
@@ -109,4 +117,44 @@ body{
 .contactoBtn:hover{
   box-shadow: 0px 0px 30px #3af2ff;
   text-shadow: 0px 0px 30px #3af2ff;
+}
+
+/*ESTILOS RESP*/
+@media screen and (max-width: 900px) {
+  .mainMenu{
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10rem;
+    position: fixed;
+    top: 4rem;
+    left: 0rem;
+    background: #898989dc;
+    width: 100vw;
+    display: none;
+  }
+
+  .mainMenuResp{
+    display: flex;
+  }
+
+  .menuBtn{
+    height: 3rem;
+    display: block;
+  }
+
+  .mainFooter{
+    min-height: 6rem;
+    
+  }
+
+  .footerBotonera{
+    margin-left: 0rem;
+    margin: 1rem 0rem;
+  }
+
+  .footerInfo{
+    padding: 1rem;
+  }
+
 }

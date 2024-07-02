@@ -21,15 +21,41 @@
             <h1 id="logotipo"><span>BIO</span>FUTURE</h1>
         </div>
         
+        <img src="src/icons/menuBTn.svg" alt="menuBtn" class="menuBtn">
         <ul class="mainMenu">
             <li><a href="index.html">Inicio</a></li>
             <li><a id="selected" href="#">Productos</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </header>
     <main class="mainContent">
+        <img src="src/icons/filtroIcon.svg" alt="filtroicon" class="iconFiltro">
         <aside class="sidebar">
+            <p>Ordenar por: Mas relevante</p>
+            <div class="sidebarBotonera">
+                <div class="filtoBtn">
+                    <p>Cuotas sin interes</p>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                </div>
+                <div class="filtoBtn">
+                    <p>Cuota simple</p>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                </div>
+                <div class="filtoBtn">
+                    <p>Llega mañana</p>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                </div>
+                <div class="filtoBtn">
+                    <p>Retiro inmediato</p>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                </div>
+            </div>
+            <p>PRECIO</p>
+            <input type="text" name="rangoIn" placeholder="Min">
+            <input type="text" name="rangoFi" placeholder="Max">
+        </aside>
+        <aside class="respSidebar">
+            <p class="closeBtn">X</p>
             <p>Ordenar por: Mas relevante</p>
             <div class="sidebarBotonera">
                 <div class="filtoBtn">
@@ -119,5 +145,7 @@
             <a href="#" class="alInicioBtn">Al Inicio</a>
         </div>
     </footer>
+    <script src="productos.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>

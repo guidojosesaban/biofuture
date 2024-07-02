@@ -7,7 +7,7 @@
 .sidebar{
     width: 20rem;
     background: #252525;
-    min-height: calc(100vh - 6rem);
+    min-height: calc(100vh - 10rem);
     display: flex;
     flex-flow: column nowrap;
     align-items: start;
@@ -67,4 +67,62 @@
 
 .prdTitle, .prdDesc, .precio{
     padding: .5rem 1rem;
+}
+
+.respSidebar{
+    display: none;
+}
+
+.iconFiltro{
+    height: 2rem;
+    position: fixed;
+    top: 5rem;
+    right: 2rem;
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .sidebar{
+        display: none;
+    }
+
+    .respSidebar{
+        display: none;
+        flex-flow: column nowrap;
+        align-items: center;
+        background: #25252596;
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+        padding: 1rem;
+    }
+
+    .respSidebarOn{
+        display: flex;
+    }
+
+    .respSidebar p{
+        color: #ffffff;
+    }
+    
+    .respSidebar input{
+        width: 6rem;
+    }
+
+    .filtoBtn p{
+        color: #ffffff;
+    }
+
+    .iconFiltro{
+        display: block;
+    }
+
+    .closeBtn{
+        position: fixed;
+        top: 5rem;
+        right: 2rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
 }
