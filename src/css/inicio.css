@@ -3,7 +3,6 @@
 }
 
 .portada{
-    background: url(src/img/portadaImg.jpg);
     background-size: cover;
     background-position: center;
     height: 20rem;
