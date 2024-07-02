@@ -1,0 +1,156 @@
+.mainContent{
+    padding-top: 4rem;
+}
+
+.portada{
+    background: url(/src/img/portadaImg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.portadaContainer{
+    backdrop-filter: blur(15px);
+    padding: 2rem;
+}
+
+.portadaTitulo{
+    color: #ffffff;
+    font-size: 2rem;
+    width: 46rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sobreNosotros{
+    height: 20rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.sobreNosotrosTxtContainer{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0rem 2rem;
+    line-height: 1.6em;
+}
+
+.sobreNosotrosTitle{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.sobreNosotrosTxt{
+    font-size: 1.2rem;
+}
+.sobreNosotrosTxt span{
+    color: #3a86ff;
+}
+
+.sobreNosotrosImg{
+    height: 20rem ;
+}
+
+.queHacemos{
+    background: #252525;
+    height: 30rem;
+}
+
+.queHacemosTxtContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: start;
+    padding-top: 2rem;
+}
+
+.queHacemosTitulo{
+    color: #ffffff;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.queHacemosTitulo span{
+    color: #3a86ff;
+    font-size: 2rem;
+}
+
+.queHacemosDescrip{
+    color: #ffffff;
+    width: 60rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.queHacemosStatsContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.queHacemosStatCard{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 10rem;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+}
+
+.statNum{
+    color: #3a86ff;
+    text-shadow: 0px 0px 30px #3af2ff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.statsDescr{
+    text-align: center;
+    color: #ffffff;
+}
+
+.queHacemosBotonera{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.nuestrosProductosBtn{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    background: #3a86ff;
+    border: 2px solid #3a86ff;
+    border-radius: 8px;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.nuestrosProductosBtn:hover, .contactoBtn:hover{
+    box-shadow: 0px 0px 30px #3af2ff;
+    text-shadow: 0px 0px 30px #3af2ff;;;
+}
+
+
+
+.contactoBtn{
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: 2px solid #3a86ff;
+    font-size: 1.2rem;
+}

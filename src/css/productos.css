@@ -1,0 +1,70 @@
+.mainContent{
+    min-height: calc(100vh - 6rem);
+    padding-top: 4rem;
+    display: flex;
+}
+
+.sidebar{
+    width: 20rem;
+    background: #252525;
+    min-height: calc(100vh - 6rem);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    padding-left: 2rem;
+    padding-top: 2rem ;
+}
+.sidebarBotonera{
+    margin: 1rem 0rem;
+}
+
+.filtoBtn{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sidebar p{
+    color: #ffffff;
+}
+
+.sidebar input{
+    width: 6rem;
+}
+
+.catalogo{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    justify-content: center;
+}
+
+.prodCard{
+    width: 14rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 14px #2525252a;
+}
+
+.productoImg{
+    width:14rem;
+}
+
+.prdTitle{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .5rem 0rem;
+}
+.prdDesc{
+    font-size: .8rem;
+}
+
+.precio{
+    padding: .5rem 0rem;
+}
+
+.prdTitle, .prdDesc, .precio{
+    padding: .5rem 1rem;
+}

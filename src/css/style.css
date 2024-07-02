@@ -1,0 +1,112 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #252525;
+  text-shadow: 0px 0px 14px #25252520;
+}
+
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* ESTILOS DEL HEADER */
+.mainHeader{
+  background: #252525;
+  padding: 0rem 2rem;
+  height: 4rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  z-index: 3;
+}
+
+.logoContainer{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#logotipo{
+  color: #ffffff;
+  margin-left: .5rem;
+  font-weight: 600;
+}
+
+#logotipo span{
+  color: #3a86ff;
+  font-weight: 600;
+}
+
+#logoIcon{
+  height: 2rem;
+}
+
+/* ESTILOS MENU */
+
+.mainMenu{
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+.mainMenu li a{
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: .25rem .5rem;
+  font-weight: 600;
+}
+
+#selected{
+  color: #3a86ff;
+}
+
+.mainFooter{
+  min-height: 6rem;
+  background: #252525;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerInfo{
+  color: #ffffff;
+  text-align: center;
+}
+
+.alInicioBtn{
+  text-decoration: none;
+  color: #3a86ff;
+  font-size: 1.2rem;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.contactoBtn{
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border: 2px solid #3a86ff;
+  font-size: 1.2rem;
+}
+
+.contactoBtn:hover{
+  box-shadow: 0px 0px 30px #3af2ff;
+  text-shadow: 0px 0px 30px #3af2ff;
+}
